@@ -1,2 +1,3 @@
-# home-control
-Manage your home money and other things.
+# Atilho
+
+Manage your home and personal money using just tags.
