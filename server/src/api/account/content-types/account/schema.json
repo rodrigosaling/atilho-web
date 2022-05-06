@@ -17,6 +17,12 @@
     },
     "balance": {
       "type": "decimal"
+    },
+    "users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "accounts"
     }
   }
 }
