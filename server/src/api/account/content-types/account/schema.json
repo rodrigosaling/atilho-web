@@ -4,7 +4,8 @@
   "info": {
     "singularName": "account",
     "pluralName": "accounts",
-    "displayName": "Account"
+    "displayName": "Account",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,10 +19,20 @@
     "balance": {
       "type": "decimal"
     },
-    "users": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "checking",
+        "savings",
+        "credit card"
+      ],
+      "required": true,
+      "default": "checking"
+    },
+    "owner": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "plugin::users-permissions.user",
+      "relation": "manyToOne",
+      "target": "api::person.person",
       "inversedBy": "accounts"
     }
   }

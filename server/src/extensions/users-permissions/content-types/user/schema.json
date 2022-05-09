@@ -68,12 +68,6 @@
       "relation": "manyToMany",
       "target": "api::home.home",
       "inversedBy": "users"
-    },
-    "accounts": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::account.account",
-      "inversedBy": "users"
     }
   }
 }
