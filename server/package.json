@@ -1,9 +1,10 @@
 {
-  "name": "atilho-server",
+  "name": "server",
   "version": "0.1.0",
   "description": "The server side of the project.",
   "type": "module",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,10 @@
   "author": "Rodrigo Saling",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^3.29.0"
+    "better-sqlite3": "^7.5.1",
+    "fastify": "^3.29.0",
+    "graphql": "^16.5.0",
+    "knex": "^2.0.0",
+    "mercurius": "^9.5.0"
   }
 }
