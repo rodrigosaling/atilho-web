@@ -1,3 +1,3 @@
 # Atilho
 
-Manage your home and personal money using just tags.
+Manage your money using tags.
