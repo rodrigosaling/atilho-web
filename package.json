@@ -11,6 +11,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@unocss/reset": "^0.51.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -19,6 +20,7 @@
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
+    "@unocss/preset-uno": "^0.51.12",
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
@@ -28,6 +30,7 @@
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "typescript": "^5.0.2",
+    "unocss": "^0.51.12",
     "vite": "^4.3.2"
   },
   "lint-staged": {
